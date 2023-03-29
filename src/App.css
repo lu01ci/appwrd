@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@font-face {
+  font-family: 'fortnite';
+  src: url(./BurbankBigWide-Bold.otf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'fortnite', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html{
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body{
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Dela Gothic One', cursive; */
+  font-family:'fortnite';
+  text-decoration: none;
+  min-height: 100%;
+  /* font-family: 'Monofonto'; */
 }
 
-.App-link {
-  color: #61dafb;
+/* -------------------CUERPO------------------- */
+
+div.header{
+  /* color:rgba(144, 142, 164, 0.4); */
+  padding-top: 1.2%;
+  color:white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
